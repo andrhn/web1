@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Meta -->
-<!--    Site Title-->
+
     <title>GRADUATION</title>
 
-    
-<!--    Main CSS-->
+<link rel="stylesheet" href="css/typhography/typhography-1.css" id="typography-scheme"> 
+
+<link rel="stylesheet" href="css/colors/cyan.css" id="color-scheme"> 
+
    <link rel="stylesheet" href="css/style.css">
 
-<!--   Color CSS-->
-   <link rel="stylesheet" href="css/colors/cyan.css" id="color-scheme">
 </head>
+
+<link rel="stylesheet" href="css/responsive.css"> 
 
 <body>
    
@@ -24,7 +25,7 @@
                
                <div class="ept-event-content-center">
                    <div class="ept-event_counter">
-                     <div id="ept-count-down">
+                     <div id="ept-count-down" style="margin: 0 auto">
 
                          <div class="ept-single-event-counter">
                             <h2><span class="days">--</span><p class="days_text">Days</p></h2>
@@ -48,3 +49,19 @@
            </div>   
    </div>
    
+   <!--   Linking with latest jquery-->
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+   
+<!--   Jquery countdown-->
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript">
+        $('#ept-count-down').countdown({
+            date: '07/06/2020 20:00:59',
+            day: 'Day',
+            days: 'Days'
+        }, function () {
+            alert('Done!');
+        });
+    </script>
+</body>
+</html>

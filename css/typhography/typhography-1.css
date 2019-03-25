@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+a, button, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+}
+html, body, .ept-event-wrapper {
+    font-family: 'Montserrat', sans-serif;
+}
+.ept-event-stracture h2.ept-main-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.ept-event-content h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ept-single-event-counter h2{
+    font-size: 45px;
+    font-weight: 300;
+}
+.ept-single-event-counter h2 p{
+    font-size: 18px;
+}
+.ept-event-place{
+    font-size: 16px;
+    line-height: 35px;
+}
+.ept-btn-resurbe{
+    font-size: 14px;
+    font-weight: 700;
+}

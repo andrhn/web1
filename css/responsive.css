@@ -1,0 +1,79 @@
+@media (min-width: 991px) and (max-width: 1199px) {
+    .ept-event-stracture{
+        margin: auto;
+        width: 100%;
+    }
+    .ept-single-event-counter{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .ept-event-content {
+  padding: 30px 15px 30px;
+
+}
+
+    .ept-event-wrapper{
+        padding-bottom: 30px;
+        background-position: center center;
+    }
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 990px) {
+    .ept-event-stracture{
+        width: 100%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .ept-single-event-counter{
+        width: 100% ;
+        padding-left:0px;
+        padding-right:0px;
+        margin:auto;
+         margin-bottom: 15px;
+    }
+    html, body, .ept-event-wrapper{
+        height: auto;
+    }
+    .ept-event-wrapper{
+        padding-bottom: 30px;
+         background-position: center center;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .ept-event-stracture{
+        width: 100%;
+        margin: auto;
+         padding-top: 30px;
+    }
+    .ept-event-stracture h2.ept-main-title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .ept-event-content{
+        padding:30px 15px;
+    }
+    .ept-single-event-counter{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    html, body, .ept-event-wrapper{
+        height: auto;
+    }
+    .ept-event-wrapper{
+        padding-bottom: 30px;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .ept-event-stracture{
+        width: 100%;
+        margin: auto;
+    }
+}

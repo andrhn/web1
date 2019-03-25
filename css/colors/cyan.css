@@ -2,7 +2,7 @@ body{
     color: #fff;
 }
 html, body, .ept-event-wrapper {
-        background: url(../../images/body-bg.jpg);
+        background: url(../../images/image-bg.jpg);
 }
 .ept-event-wrapper:before{
     background-color: rgb(66, 228, 199);
@@ -17,18 +17,5 @@ html, body, .ept-event-wrapper {
         background: rgba(0, 0, 0, 0.30);
 }
 .ept-single-event-counter {
-    border: 1px solid #263432;
-}
-.ept-event-content-left{
-    border-right: 1px solid #33a696;
-}
-.ept-btn-resurbe{
-  background: -webkit-linear-gradient(#4bf8d9, #1c907b);
-  color: #fff;
-}
-.ept-btn-resurbe:hover{
- background: #42cab2;
-  -moz-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
-  -o-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+    border: 2px solid #263432;
 }
